@@ -17,3 +17,6 @@ input("Press Enter to start...")
 start = time.time()
 typed = input("\nStart typing: ")
 end = time.time()
+
+elapsed = round(end - start, 2)
+print(f"\n⏱ You took {elapsed} seconds")
